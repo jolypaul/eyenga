@@ -1,0 +1,36 @@
+#logo{
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(137, 141, 187);
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 10px;
+}
+ul a{
+    position: relative;
+    top: 0px;
+    margin-right: 10px;
+}
+.photo-maison{
+    position: absolute;
+    top: 25px;
+    right: 500px;
+    width: 50px;
+    height: 50px;
+}
+.gauche, .milieu, .droite{
+    align-self: auto;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+h1{
+    display: flex;
+}
